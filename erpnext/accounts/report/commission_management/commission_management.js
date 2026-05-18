@@ -5,7 +5,8 @@ frappe.query_reports["Commission Management"] = {
     const is_privileged = privileged_roles.some(role => roles.includes(role));
     const should_force_doctor_scope = roles.includes("Doctor") && !is_privileged;
 
-    const min_doctor_from_date = "2026-03-01";
+    // const min_doctor_from_date = "2026-03-01";
+    const min_doctor_from_date = frappe.datetime.month_start();
     const today = frappe.datetime.get_today();
 
     // Default values on first load

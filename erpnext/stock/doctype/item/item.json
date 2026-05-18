@@ -270,7 +270,6 @@
    "print_hide": 1
   },
   {
-   "collapsible": 1,
    "fieldname": "section_break_11",
    "fieldtype": "Section Break",
    "label": "Description"
@@ -911,7 +910,7 @@
  "index_web_pages_for_search": 1,
  "links": [],
  "make_attachments_public": 1,
- "modified": "2026-01-31 20:25:16.627213",
+ "modified": "2026-05-11 13:24:06.906650",
  "modified_by": "Administrator",
  "module": "Stock",
  "name": "Item",
